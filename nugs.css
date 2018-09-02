@@ -1,0 +1,406 @@
+
+html {
+    background-color: #D3D3D3;	/*sets the margins of the website to a dark grey*/
+}
+
+body {
+	
+	margin:0;
+}
+
+#myDIV {
+	
+	margin: 3% 10%;
+	background-color: #D3D3D3;
+	padding:1%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#mainimage {
+	padding-left:1%;
+	padding-bottom:10%;
+}
+
+#text{
+	background-color:white;
+	border-style: solid;
+    border-width: 5px;
+	padding-top:2%;
+}
+
+#info {
+	width:50%;
+	padding-right:20%;
+	float:right;
+}
+
+#end {
+	clear:both;
+}
+hr {
+	display:none;
+}
+
+#links {
+	border-style: solid;
+    border-width: 5px;
+	background-color:white;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+	padding-top:20px;
+    
+}
+
+.bubbleimg {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 5%;
+}
+
+.img-with-text {
+	padding-left:1%;
+	padding-right:1%;
+	text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bubbletxt {
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	text-align: center;
+	}
+
+	
+h1,h2,h3{
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #00477F;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #E61337;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E61337;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a red background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #EF4362;
+  
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn a {
+		padding:0;
+	}
+		
+.button {
+	font-weight:bold;
+	color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#navDIV.gang {
+	background-color: #606060;
+}
+
+#navDIV.gang .navbar {
+	background-color: #65A736;
+}
+
+#navDIV.gang .navbar a:hover,#navDIV.gang .dropdown:hover .dropbtn {
+  background-color: #606060;
+}
+
+/* Dropdown content (hidden by default) */
+#navDIV.gang .dropdown-content {
+  background-color: #606060;
+}
+
+/* Add a grey background color to dropdown links on hover */
+#navDIV.gang .dropdown-content a:hover {
+  background-color: #8F8F8F;
+}
+
+
+
+
+#navDIV.nacl {
+	background-color: #7097FF;
+}
+
+#navDIV.nacl .navbar {
+	background-color: #FF70A5;
+}
+
+#navDIV.nacl .navbar a:hover,#navDIV.nacl .dropdown:hover .dropbtn {
+  background-color: #7097FF;
+}
+
+/* Dropdown content (hidden by default) */
+#navDIV.nacl .dropdown-content {
+  background-color: #7097FF;
+}
+
+/* Add a grey background color to dropdown links on hover */
+#navDIV.nacl .dropdown-content a:hover {
+  background-color: #427AFF;
+}
+
+
+
+
+#navDIV.ping {
+	background-color: #D3A85D;
+}
+
+#navDIV.ping .navbar {
+	background-color: #AA0000;
+}
+
+#navDIV.ping .navbar a:hover,#navDIV.ping .dropdown:hover .dropbtn {
+  background-color: #D3A85D;
+
+}
+
+/* Dropdown content (hidden by default) */
+#navDIV.ping .dropdown-content {
+  background-color: #D3A85D;
+}
+
+/* Add a grey background color to dropdown links on hover */
+#navDIV.ping .dropdown-content a:hover {
+  background-color: #F4BC5A;
+}
+
+
+
+
+#navDIV.nude {
+	background-color: #4652E0;
+}
+
+#navDIV.nude .navbar {
+	background-color: #4652E0;
+}
+
+#navDIV.nude .navbar a:hover,#navDIV.nude .dropdown:hover .dropbtn {
+  background-color: #000477;
+}
+
+/* Dropdown content (hidden by default) */
+#navDIV.nude .dropdown-content {
+  background-color: #000477;
+}
+
+/* Add a blue background color to dropdown links on hover */
+#navDIV.nude .dropdown-content a:hover {
+  background-color: #427AFF;
+}
+
+	
+
+.sponsorbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height: 40px;
+    background-color: #E61337;
+    color: white;
+    text-align: center;
+}
+
+
+table {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+
+#naclTables table{
+	border:1px solid #427AFF;
+	
+}
+#naclTables th{
+	border:1px solid #427AFF;
+	width:81px;
+}
+#naclTables td{
+	border:1px solid #427AFF;
+	width:150px;
+}
+#gangTables table{
+	border:1px solid #65A736;
+	
+}
+#gangTables th{
+	border:1px solid #65A736;
+	width:81px;
+}
+#gangTables td{
+	border:1px solid #65A736;
+	width:150px;
+}
+#pingTables table{
+	border:1px solid #D3A85D;
+	
+}
+#pingTables th{
+	border:1px solid #D3A85D;
+	width:81px;
+}
+#pingTables td{
+	border:1px solid #D3A85D;
+	width:150px;
+}
+
+#execTables table{
+	border:1px solid black;
+	
+}
+#execTables th{
+	border:1px solid black;
+	width:50px;
+}
+#execTables td{
+	border:1px solid black;
+	width:150px;
+}
+
+#nudeTables table{
+	border:1px solid #000477;
+	
+}
+#nudeTables th{
+	border:1px solid #000477;
+	width:50px;
+}
+#nudeTables td{
+	border:1px solid #000477;
+	width:150px;
+}
+
+
+#opnclTables table{
+	border:1px solid black;
+	
+}
+#opnclTables th{
+	border:1px solid black;
+	width:50px;
+}
+#opnclTables td{
+	border:1px solid black;
+	width:150px;
+}
+
+#president{
+	display:none;
+}
+
+#treasurer{
+	display:none;
+}
+
+#secretary{
+	display:none;
+}
+
+#tech{
+	display:none;
+}
+
+#social{
+	display:none;
+}
+
+#esportsow{
+	display:none;
+}
+
+#esportslol{
+	display:none;
+}
+
+#esportscsgo{
+	display:none;
+}
